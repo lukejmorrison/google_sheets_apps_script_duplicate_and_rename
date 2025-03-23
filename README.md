@@ -33,6 +33,15 @@ When executed, the script:
 4. Save the project
 5. Authorize the script when prompted
 
+## Important Security Note
+
+The script includes the `@OnlyCurrentDoc` annotation which is **required** for the script to function properly. This annotation:
+- Restricts the script's access to only the current spreadsheet
+- Reduces the permissions requested during authorization
+- Prevents Google from blocking the script due to excessive permission requests
+
+Without this annotation, Google's security measures may block the script or present users with alarming permission requests that could discourage usage.
+
 ## Usage
 
 ### Method 1: Run from Script Editor
