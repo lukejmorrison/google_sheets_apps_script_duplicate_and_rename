@@ -45,9 +45,6 @@
  * @OnlyCurrentDoc
  */
 
-/**
- * @OnlyCurrentDoc
- */
 function duplicateAndRenameTab() {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   var currentSheet = ss.getActiveSheet();
