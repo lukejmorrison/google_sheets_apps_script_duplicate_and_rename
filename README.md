@@ -29,7 +29,7 @@ When executed, the script:
 
 1. Open your Google Sheet
 2. Go to **Extensions > Apps Script**
-3. Copy the contents of `code.gs` into the script editor
+3. Copy the contents of `duplicateAndRename.gs` into the script editor
 4. Save the project
 5. Authorize the script when prompted
 
